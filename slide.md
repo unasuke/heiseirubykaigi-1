@@ -229,9 +229,3 @@ GitHub Actionsではどんなに頑張っても落ちるtestがAppVeyorではす
 - CIはcronで定期的に実行できると便利
 - Windows対応やっていきましょう
   - 「総体としてのRuby」は我々で良くしていける
-
-
-# 時間があまったら宣伝
-![](img/matomebook.png){:relative_width="80"}
-
-C97火曜日南リ17a 「キリンセル」

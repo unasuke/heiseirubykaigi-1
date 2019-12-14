@@ -1,6 +1,6 @@
-# TODO: スライドのタイトル
+# heiseirubykaigi-1
 
-TODO: スライドの説明
+https://heiseirb.github.io/kaigi01/
 
 ## 作者向け
 

@@ -3,7 +3,7 @@ subtitle
 : 2019-12-14
 
 subtitle
-: 平成Ruby会議01
+: 平成Ruby会議01 \\n#heiseirubykaigi
 
 author
 : うなすけ
@@ -50,7 +50,7 @@ Ruby製の静的サイトジェネレーター
 
 <https://travis-ci.org/middleman/middleman>
 
-そして私はMiddlemanにWindowsでのCIを追加しようと思ったのであった……
+⇒ そして私はMiddlemanにWindowsでのCIを追加しようと思ったのであった……
 
 # いきさつのまとめ
 - MiddlemanにPull Requestを出したらWindowsでの挙動を確認されたので、Windows環境でのCIを追加することにした
@@ -60,7 +60,7 @@ Ruby製の静的サイトジェネレーター
 
 # 自己紹介
 - 名前 : うなすけ
-- 仕事 : フリーランスのプラグラマー
+- 仕事 : プログラマー (フリーランス)
   - インフラ寄りサーバーサイドエンジニア
   - Ruby, Rails, Kubernetes...
 - Itamae gem maintainer
@@ -131,7 +131,7 @@ Windows `>>` macOS + others
 # あなたのgem、Windowsで動きましたか？
 ![](img/powershell-ruby-v.png){:relative_width="100"}
 
-# gemがWindowsで動くようにしよう！
+# gemをWindowsで動くようにしよう！
 - MiddlemanのtestがWindowsでpassするようになるまでにやったことを紹介します
 
 # shell commandを使わない
@@ -212,7 +212,14 @@ GitHub Actionsではどんなに頑張っても落ちるtestがAppVeyorではす
 
 (実体験 <https://github.com/middleman/middleman/pull/2297>)
 
-#
+![](img/test-failed.png){:relative_width="60"}
+
+# 成果
+<https://github.com/middleman/middleman/pull/2297>
+
+![](img/middleman-pullrequest-2297.png){:relative_width="90"}
+
+# 最後に
 > 実のところWindows専用アプリでもないにも関わらずこれほど力を入れてWindows対応がなされているものって、なかなか見ないよ。本当に。頭が下がります。ただ、ユーザー定義したライブラリとかで対応が残念な事があって、そのため結局総体としては残念なことになってしまうって場合はまま見受けられるので、その点残念。
 
 <https://shyouhei.tumblr.com/post/64498820681/10年代のrubyコア用語集> より
@@ -221,5 +228,10 @@ GitHub Actionsではどんなに頑張っても落ちるtestがAppVeyorではす
 - Pure Rubyで実装すればWindowsでも動く(可能性が高い)
 - CIはcronで定期的に実行できると便利
 - Windows対応やっていきましょう
+  - 「総体としてのRuby」は我々で良くしていける
+
 
 # 時間があまったら宣伝
+![](img/matomebook.png){:relative_width="80"}
+
+C97火曜日南リ17a 「キリンセル」

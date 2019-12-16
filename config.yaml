@@ -1,12 +1,12 @@
 ---
 id: heiseirubykaigi-1
 base_name: slide
-tags: []
-presentation_date: 
-presentation_start_time: 
-presentation_end_time: 
+tags: ['Windows', 'Middleman']
+presentation_date: 2019-12-14
+presentation_start_time: 14:05
+presentation_end_time: 14:20
 version: 1.0.0
-licenses: []
+licenses: ['CC-BY-SA-4.0']
 slideshare_id: 
 speaker_deck_id: 
 ustream_id: 
